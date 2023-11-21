@@ -1,0 +1,24 @@
+{
+    "organe": {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "uid": "PO44312",
+        "codeType": "ASSEMBLEE",
+        "libelle": "Assembl\u00e9e nationale de la 10\u00e8me l\u00e9gislature",
+        "libelleEdition": "de l'Assembl\u00e9e",
+        "libelleAbrege": "Assembl\u00e9e",
+        "libelleAbrev": "AN",
+        "viMoDe": {
+            "dateDebut": "1993-04-02",
+            "dateAgrement": null,
+            "dateFin": "1997-04-21"
+        },
+        "organeParent": null,
+        "chambre": null,
+        "regime": "5\u00e8me R\u00e9publique",
+        "legislature": "10",
+        "secretariat": {
+            "secretaire01": null,
+            "secretaire02": null
+        }
+    }
+}

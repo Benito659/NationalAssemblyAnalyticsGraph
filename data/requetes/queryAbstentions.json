@@ -1,0 +1,338 @@
+[
+    {
+      "texte": {
+  "identity": 4098,
+  "labels": [
+          "Texte_de_loi"
+        ],
+  "properties": {
+  "uid": "PRJLANR5L15B3875",
+  "titrePrincipal": "projet de loi portant lutte contre le dérèglement climatique et renforcement de la résilience face à ses effets",
+  "dateCreation": "2021-02-10",
+  "type": "Projet de loi",
+  "datePublication": "2021-05-04"
+        }
+      },
+      "votes": 1714
+    },
+    {
+      "texte": {
+  "identity": 4099,
+  "labels": [
+          "Texte_de_loi"
+        ],
+  "properties": {
+  "uid": "PRJLANR5L15B4302",
+  "titrePrincipal": "projet de loi portant lutte contre le dérèglement climatique et renforcement de la résilience face à ses effets",
+  "dateCreation": "2021-06-30",
+  "type": "Projet de loi",
+  "datePublication": "None"
+        }
+      },
+      "votes": 1714
+    },
+    {
+      "texte": {
+  "identity": 4055,
+  "labels": [
+          "Texte_de_loi"
+        ],
+  "properties": {
+  "uid": "PRJLANR5L15B2623",
+  "titrePrincipal": "projet de loi instituant un système universel de retraite",
+  "dateCreation": "2020-01-24",
+  "type": "Projet de loi",
+  "datePublication": "2020-01-28"
+        }
+      },
+      "votes": 1703
+    },
+    {
+      "texte": {
+  "identity": 3977,
+  "labels": [
+          "Texte_de_loi"
+        ],
+  "properties": {
+  "uid": "PRJLANR5L15B1106",
+  "titrePrincipal": "projet de loi pour une immigration maîtrisée, un droit d'asile effectif et une intégration réussie",
+  "dateCreation": "2018-06-27",
+  "type": "Projet de loi",
+  "datePublication": "2018-07-02"
+        }
+      },
+      "votes": 647
+    },
+    {
+      "texte": {
+  "identity": 3978,
+  "labels": [
+          "Texte_de_loi"
+        ],
+  "properties": {
+  "uid": "PRJLANR5L15BTA0162",
+  "titrePrincipal": "projet de loi pour une immigration maîtrisée, un droit d'asile effectif et une intégration réussie",
+  "dateCreation": "2018-07-27",
+  "type": "Projet de loi",
+  "datePublication": "2018-08-03"
+        }
+      },
+      "votes": 647
+    },
+    {
+      "texte": {
+  "identity": 4116,
+  "labels": [
+          "Texte_de_loi"
+        ],
+  "properties": {
+  "uid": "PRJLANR5L15B4386",
+  "titrePrincipal": "projet de loi relatif à la gestion de la crise sanitaire",
+  "dateCreation": "2021-07-19",
+  "type": "Projet de loi",
+  "datePublication": "2021-07-22"
+        }
+      },
+      "votes": 606
+    },
+    {
+      "texte": {
+  "identity": 4092,
+  "labels": [
+          "Texte_de_loi"
+        ],
+  "properties": {
+  "uid": "PRJLANR5L15B3649",
+  "titrePrincipal": "projet de loi confortant le respect des principes de la République",
+  "dateCreation": "2020-12-09",
+  "type": "Projet de loi",
+  "datePublication": "2021-02-16"
+        }
+      },
+      "votes": 584
+    },
+    {
+      "texte": {
+  "identity": 4086,
+  "labels": [
+          "Texte_de_loi"
+        ],
+  "properties": {
+  "uid": "PRJLANR5L15BTA0536",
+  "titrePrincipal": "projet de loi de finances pour 2021",
+  "dateCreation": "2020-12-16",
+  "type": "Projet de loi",
+  "datePublication": "2021-01-11"
+        }
+      },
+      "votes": 575
+    },
+    {
+      "texte": {
+  "identity": 4085,
+  "labels": [
+          "Texte_de_loi"
+        ],
+  "properties": {
+  "uid": "PRJLANR5L15B3642",
+  "titrePrincipal": "projet de loi de finances pour 2021",
+  "dateCreation": "2020-12-08",
+  "type": "Projet de loi",
+  "datePublication": "2020-12-10"
+        }
+      },
+      "votes": 575
+    },
+    {
+      "texte": {
+  "identity": 4084,
+  "labels": [
+          "Texte_de_loi"
+        ],
+  "properties": {
+  "uid": "PRJLANR5L15B3360",
+  "titrePrincipal": "projet de loi de finances pour 2021",
+  "dateCreation": "2020-09-28",
+  "type": "Projet de loi",
+  "datePublication": "2020-11-17"
+        }
+      },
+      "votes": 575
+    },
+    {
+      "texte": {
+  "identity": 3986,
+  "labels": [
+          "Texte_de_loi"
+        ],
+  "properties": {
+  "uid": "PRJLANR5L15B1216",
+  "titrePrincipal": "projet de loi portant évolution du logement, de l'aménagement et du numérique",
+  "dateCreation": "2018-07-26",
+  "type": "Projet de loi",
+  "datePublication": "2018-08-07"
+        }
+      },
+      "votes": 563
+    },
+    {
+      "texte": {
+  "identity": 4132,
+  "labels": [
+          "Texte_de_loi"
+        ],
+  "properties": {
+  "uid": "PRJLANR5L15B4857",
+  "titrePrincipal": "projet de loi renforçant les outils de gestion de la crise sanitaire et modifiant le code de la santé publique",
+  "dateCreation": "2021-12-27",
+  "type": "Projet de loi",
+  "datePublication": "2022-01-05"
+        }
+      },
+      "votes": 472
+    },
+    {
+      "texte": {
+  "identity": 4133,
+  "labels": [
+          "Texte_de_loi"
+        ],
+  "properties": {
+  "uid": "PRJLANR5L15B4905",
+  "titrePrincipal": "projet de loi renforçant les outils de gestion de la crise sanitaire et modifiant le code de la santé publique",
+  "dateCreation": "2022-01-13",
+  "type": "Projet de loi",
+  "datePublication": "2022-01-14"
+        }
+      },
+      "votes": 472
+    },
+    {
+      "texte": {
+  "identity": 4035,
+  "labels": [
+          "Texte_de_loi"
+        ],
+  "properties": {
+  "uid": "PRJLANR5L15B2187",
+  "titrePrincipal": "projet de loi relatif à la bioéthique",
+  "dateCreation": "2019-07-24",
+  "type": "Projet de loi",
+  "datePublication": "2019-07-31"
+        }
+      },
+      "votes": 471
+    },
+    {
+      "texte": {
+  "identity": 4037,
+  "labels": [
+          "Texte_de_loi"
+        ],
+  "properties": {
+  "uid": "PRJLANR5L15B3833",
+  "titrePrincipal": "projet de loi relatif à la bioéthique",
+  "dateCreation": "2021-02-04",
+  "type": "Projet de loi",
+  "datePublication": "2021-02-12"
+        }
+      },
+      "votes": 471
+    },
+    {
+      "texte": {
+  "identity": 4038,
+  "labels": [
+          "Texte_de_loi"
+        ],
+  "properties": {
+  "uid": "PRJLANR5L15BTA0623",
+  "titrePrincipal": "projet de loi relatif à la bioéthique",
+  "dateCreation": "2021-06-10",
+  "type": "Projet de loi",
+  "datePublication": "2021-06-23"
+        }
+      },
+      "votes": 471
+    },
+    {
+      "texte": {
+  "identity": 4036,
+  "labels": [
+          "Texte_de_loi"
+        ],
+  "properties": {
+  "uid": "PRJLANR5L15B2658",
+  "titrePrincipal": "projet de loi relatif à la bioéthique",
+  "dateCreation": "2020-02-05",
+  "type": "Projet de loi",
+  "datePublication": "2020-07-31"
+        }
+      },
+      "votes": 471
+    },
+    {
+      "texte": {
+  "identity": 3988,
+  "labels": [
+          "Texte_de_loi"
+        ],
+  "properties": {
+  "uid": "PRJLANR5L15B1255",
+  "titrePrincipal": "projet de loi de finances pour 2019",
+  "dateCreation": "2018-09-24",
+  "type": "Projet de loi",
+  "datePublication": "2018-11-20"
+        }
+      },
+      "votes": 391
+    },
+    {
+      "texte": {
+  "identity": 3990,
+  "labels": [
+          "Texte_de_loi"
+        ],
+  "properties": {
+  "uid": "PRJLANR5L15BTA0211",
+  "titrePrincipal": "projet de loi de finances pour 2019",
+  "dateCreation": "2018-12-19",
+  "type": "Projet de loi",
+  "datePublication": "2019-01-14"
+        }
+      },
+      "votes": 391
+    },
+    {
+      "texte": {
+  "identity": 3989,
+  "labels": [
+          "Texte_de_loi"
+        ],
+  "properties": {
+  "uid": "PRJLANR5L15B1490",
+  "titrePrincipal": "projet de loi de finances pour 2019",
+  "dateCreation": "2018-12-12",
+  "type": "Projet de loi",
+  "datePublication": "2018-12-17"
+        }
+      },
+      "votes": 391
+    },
+    {
+      "texte": {
+  "identity": 4041,
+  "labels": [
+          "Texte_de_loi"
+        ],
+  "properties": {
+  "uid": "PRJLANR5L15BTA0373",
+  "titrePrincipal": "projet de loi de finances pour 2020",
+  "dateCreation": "2019-12-18",
+  "type": "Projet de loi",
+  "datePublication": "2020-01-13"
+        }
+      },
+      "votes": 384
+    }
+  ]

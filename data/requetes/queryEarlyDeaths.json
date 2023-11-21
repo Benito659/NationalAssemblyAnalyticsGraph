@@ -1,0 +1,230 @@
+[
+    {
+      "acteur": {
+  "identity": 2857,
+  "labels": [
+          "Acteur"
+        ],
+  "properties": {
+  "profession": "Fonctionnaire de catégorie A",
+  "civ": "M.",
+  "uid": "PA605499",
+  "dateNais": "1969-11-08",
+  "dateDeces": "2012-06-30",
+  "villeNais": "Marseille",
+  "paysNais": "France",
+  "prenom": "Olivier",
+  "nom": "Ferrand",
+  "picture": "https://www2.assemblee-nationale.fr/static/tribun/14/photos/605499.jpg"
+        }
+      },
+      "dureeMandat": 9.0,
+      "startDate": "2012-06-21",
+      "dateMort": "2012-06-30"
+    },
+    {
+      "acteur": {
+  "identity": 2165,
+  "labels": [
+          "Acteur"
+        ],
+  "properties": {
+  "profession": "Professeur  de chirurgie digestive - Chirurgien des Hôpitaux de Paris",
+  "uid": "PA267456",
+  "civ": "M.",
+  "dateNais": "1946-06-01",
+  "dateDeces": "2007-07-03",
+  "villeNais": "Thézan-lès-Béziers",
+  "paysNais": "France",
+  "prenom": "Paul-Henri",
+  "nom": "Cugnenc",
+  "picture": "https://www2.assemblee-nationale.fr/static/tribun/13/photos/267456.jpg"
+        }
+      },
+      "dureeMandat": 12.0,
+      "startDate": "2007-06-21",
+      "dateMort": "2007-07-03"
+    },
+    {
+      "acteur": {
+  "identity": 2452,
+  "labels": [
+          "Acteur"
+        ],
+  "properties": {
+  "profession": "Retraité de l'enseignement",
+  "uid": "PA331339",
+  "civ": "M.",
+  "dateNais": "1944-10-12",
+  "dateDeces": "2008-03-07",
+  "villeNais": "Tocane-Saint-Apre",
+  "paysNais": "France",
+  "prenom": "Michel",
+  "nom": "Debet",
+  "picture": "https://www2.assemblee-nationale.fr/static/tribun/13/photos/331339.jpg"
+        }
+      },
+      "dureeMandat": 256.0,
+      "startDate": "2007-06-21",
+      "dateMort": "2008-03-07"
+    },
+    {
+      "acteur": {
+  "identity": 1848,
+  "labels": [
+          "Acteur"
+        ],
+  "properties": {
+  "profession": "Ingénieur",
+  "uid": "PA2090",
+  "civ": "M.",
+  "dateNais": "1946-05-03",
+  "dateDeces": "2008-09-18",
+  "villeNais": "Paris",
+  "paysNais": "None",
+  "nom": "Marsaudon",
+  "prenom": "Jean"
+        }
+      },
+      "dureeMandat": 447.0,
+      "startDate": "2007-06-21",
+      "dateMort": "2008-09-18"
+    },
+    {
+      "acteur": {
+  "identity": 1576,
+  "labels": [
+          "Acteur"
+        ],
+  "properties": {
+  "profession": "Médecin",
+  "uid": "PA1068",
+  "civ": "M.",
+  "dateNais": "1943-07-23",
+  "dateDeces": "2008-11-17",
+  "villeNais": "Toulouse",
+  "paysNais": "None",
+  "nom": "Demange",
+  "prenom": "Jean-Marie"
+        }
+      },
+      "dureeMandat": 506.0,
+      "startDate": "2007-06-21",
+      "dateMort": "2008-11-17"
+    },
+    {
+      "acteur": {
+  "identity": 3641,
+  "labels": [
+          "Acteur"
+        ],
+  "properties": {
+  "profession": "Retraitée fonction publique (hors enseignement)",
+  "uid": "PA721992",
+  "civ": "Mme",
+  "dateNais": "1954-09-09",
+  "dateDeces": "2019-07-07",
+  "villeNais": "Paris",
+  "paysNais": "France",
+  "prenom": "Patricia",
+  "nom": "Gallerneau",
+  "picture": "https://www2.assemblee-nationale.fr/static/tribun/15/photos/721992.jpg"
+        }
+      },
+      "dureeMandat": 736.0,
+      "startDate": "2017-06-21",
+      "dateMort": "2019-07-07"
+    },
+    {
+      "acteur": {
+  "identity": 3931,
+  "labels": [
+          "Acteur"
+        ],
+  "properties": {
+  "profession": "Directeur multimédia de société de presse",
+  "civ": "M.",
+  "uid": "PA817",
+  "dateNais": "1952-04-25",
+  "dateDeces": "2009-11-03",
+  "villeNais": "Egry",
+  "paysNais": "None",
+  "prenom": "Jean-Paul",
+  "nom": "Charié",
+  "picture": "https://www2.assemblee-nationale.fr/static/tribun/13/photos/817.jpg"
+        }
+      },
+      "dureeMandat": 852.0,
+      "startDate": "2007-06-21",
+      "dateMort": "2009-11-03"
+    },
+    {
+      "acteur": {
+  "identity": 2903,
+  "labels": [
+          "Acteur"
+        ],
+  "properties": {
+  "profession": "Fonctionnaire de catégorie A",
+  "civ": "M.",
+  "uid": "PA606675",
+  "dateNais": "1967-07-19",
+  "dateDeces": "2020-02-11",
+  "villeNais": "Pontivy",
+  "paysNais": "France",
+  "prenom": "François",
+  "nom": "André",
+  "picture": "https://www2.assemblee-nationale.fr/static/tribun/15/photos/606675.jpg"
+        }
+      },
+      "dureeMandat": 950.0,
+      "startDate": "2017-06-21",
+      "dateMort": "2020-02-11"
+    },
+    {
+      "acteur": {
+  "identity": 2066,
+  "labels": [
+          "Acteur"
+        ],
+  "properties": {
+  "profession": "Sans profession déclarée",
+  "civ": "M.",
+  "uid": "PA266863",
+  "dateNais": "1953-05-11",
+  "dateDeces": "2015-02-21",
+  "villeNais": "Poitiers",
+  "paysNais": "France",
+  "prenom": "Jean-Pierre",
+  "nom": "Fougerat",
+  "picture": "https://www2.assemblee-nationale.fr/static/tribun/14/photos/266863.jpg"
+        }
+      },
+      "dureeMandat": 960.0,
+      "startDate": "2012-06-21",
+      "dateMort": "2015-02-21"
+    },
+    {
+      "acteur": {
+  "identity": 3624,
+  "labels": [
+          "Acteur"
+        ],
+  "properties": {
+  "profession": "Industriel-Chef d'entreprise",
+  "civ": "M.",
+  "uid": "PA721860",
+  "dateNais": "1970-09-30",
+  "dateDeces": "2020-03-29",
+  "villeNais": "Avignon",
+  "paysNais": "France",
+  "prenom": "Jean-François",
+  "nom": "Cesarini",
+  "picture": "https://www2.assemblee-nationale.fr/static/tribun/15/photos/721860.jpg"
+        }
+      },
+      "dureeMandat": 998.0,
+      "startDate": "2017-06-21",
+      "dateMort": "2020-03-29"
+    }
+  ]

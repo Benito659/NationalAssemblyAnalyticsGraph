@@ -1,0 +1,162 @@
+[
+    {
+      "nb": 44,
+      "organe": {
+  "identity": 603,
+  "labels": [
+          "Organe"
+        ],
+  "properties": {
+  "uid": "PO730958",
+  "codeType": "GP",
+  "dateDebut": "2017-06-27",
+  "libelle": "La France insoumise",
+  "dateFin": "None"
+        }
+      }
+    },
+    {
+      "nb": 44,
+      "organe": {
+  "identity": 601,
+  "labels": [
+          "Organe"
+        ],
+  "properties": {
+  "uid": "PO730940",
+  "codeType": "GP",
+  "dateDebut": "2017-06-27",
+  "libelle": "Gauche démocrate et républicaine",
+  "dateFin": "None"
+        }
+      }
+    },
+    {
+      "nb": 34,
+      "organe": {
+  "identity": 594,
+  "labels": [
+          "Organe"
+        ],
+  "properties": {
+  "uid": "PO723569",
+  "codeType": "GP",
+  "dateDebut": "2017-06-21",
+  "libelle": "Non inscrit",
+  "dateFin": "None"
+        }
+      }
+    },
+    {
+      "nb": 30,
+      "organe": {
+  "identity": 600,
+  "labels": [
+          "Organe"
+        ],
+  "properties": {
+  "uid": "PO730934",
+  "codeType": "GP",
+  "dateDebut": "2017-06-27",
+  "libelle": "Les Républicains",
+  "dateFin": "None"
+        }
+      }
+    },
+    {
+      "nb": 24,
+      "organe": {
+  "identity": 659,
+  "labels": [
+          "Organe"
+        ],
+  "properties": {
+  "uid": "PO758835",
+  "codeType": "GP",
+  "dateDebut": "2018-09-12",
+  "libelle": "Socialistes et apparentés",
+  "dateFin": "None"
+        }
+      }
+    },
+    {
+      "nb": 14,
+      "organe": {
+  "identity": 668,
+  "labels": [
+          "Organe"
+        ],
+  "properties": {
+  "uid": "PO759900",
+  "codeType": "GP",
+  "dateDebut": "2018-10-18",
+  "libelle": "Libertés et Territoires",
+  "dateFin": "None"
+        }
+      }
+    },
+    {
+      "nb": 12,
+      "organe": {
+  "identity": 708,
+  "labels": [
+          "Organe"
+        ],
+  "properties": {
+  "uid": "PO771889",
+  "codeType": "GP",
+  "dateDebut": "2020-05-26",
+  "libelle": "UDI et Indépendants",
+  "dateFin": "None"
+        }
+      }
+    },
+    {
+      "nb": 8,
+      "organe": {
+  "identity": 3399,
+  "labels": [
+          "Organe"
+        ],
+  "properties": {
+  "uid": "PO730946",
+  "codeType": "GP",
+  "dateDebut": "2017-06-27",
+  "libelle": "Nouvelle Gauche",
+  "dateFin": "2018-09-11"
+        }
+      }
+    },
+    {
+      "nb": 1,
+      "organe": {
+  "identity": 631,
+  "labels": [
+          "Organe"
+        ],
+  "properties": {
+  "uid": "PO744425",
+  "codeType": "GP",
+  "dateDebut": "2017-11-29",
+  "libelle": "UDI, Agir et Indépendants",
+  "dateFin": "2019-06-10"
+        }
+      }
+    },
+    {
+      "nb": 1,
+      "organe": {
+  "identity": 695,
+  "labels": [
+          "Organe"
+        ],
+  "properties": {
+  "uid": "PO767217",
+  "codeType": "GP",
+  "dateDebut": "2019-09-28",
+  "libelle": "UDI, Agir et Indépendants",
+  "dateFin": "2020-05-25"
+        }
+      }
+    }
+  ]

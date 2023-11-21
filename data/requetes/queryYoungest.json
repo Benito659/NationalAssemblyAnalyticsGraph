@@ -1,0 +1,212 @@
+[
+    {
+      "acteur": {
+  "identity": 2993,
+  "labels": [
+          "Acteur"
+        ],
+  "properties": {
+  "profession": "{'@xmlns:xsi': 'http://www.w3.org/2001/XMLSchema-instance', '@xsi:nil': 'true'}",
+  "uid": "PA609709",
+  "civ": "Mme",
+  "dateNais": "1989-12-10",
+  "dateDeces": "None",
+  "villeNais": "Saint-Germain-en-Laye",
+  "paysNais": "France",
+  "prenom": "Marion",
+  "nom": "Maréchal-Le Pen",
+  "picture": "https://www2.assemblee-nationale.fr/static/tribun/14/photos/609709.jpg"
+        }
+      },
+      "ageDeputeDebutMandat": 22.53013698630137
+    },
+    {
+      "acteur": {
+  "identity": 3470,
+  "labels": [
+          "Acteur"
+        ],
+  "properties": {
+  "profession": "Sans profession déclarée",
+  "civ": "M.",
+  "uid": "PA720606",
+  "dateNais": "1993-11-18",
+  "dateDeces": "None",
+  "villeNais": "Beuvry",
+  "paysNais": "France",
+  "prenom": "Ludovic",
+  "nom": "Pajot",
+  "picture": "https://www2.assemblee-nationale.fr/static/tribun/15/photos/720606.jpg"
+        }
+      },
+      "ageDeputeDebutMandat": 23.591552511415525
+    },
+    {
+      "acteur": {
+  "identity": 3565,
+  "labels": [
+          "Acteur"
+        ],
+  "properties": {
+  "profession": "Juriste",
+  "uid": "PA721398",
+  "civ": "Mme",
+  "dateNais": "1993-01-06",
+  "dateDeces": "None",
+  "villeNais": "Fourmies",
+  "paysNais": "France",
+  "prenom": "Typhanie",
+  "nom": "Degois",
+  "picture": "https://www2.assemblee-nationale.fr/static/tribun/15/photos/721398.jpg"
+        }
+      },
+      "ageDeputeDebutMandat": 24.457762557077626
+    },
+    {
+      "acteur": {
+  "identity": 3915,
+  "labels": [
+          "Acteur"
+        ],
+  "properties": {
+  "profession": "Avocat",
+  "uid": "PA783457",
+  "civ": "M.",
+  "dateNais": "1992-07-12",
+  "dateDeces": "None",
+  "villeNais": "Paris",
+  "paysNais": "France",
+  "prenom": "Victor",
+  "nom": "Habert-Dassault",
+  "picture": "https://www2.assemblee-nationale.fr/static/tribun/15/photos/783457.jpg"
+        }
+      },
+      "ageDeputeDebutMandat": 24.941324200913243
+    },
+    {
+      "acteur": {
+  "identity": 3525,
+  "labels": [
+          "Acteur"
+        ],
+  "properties": {
+  "profession": "Cadre supérieur (entreprises privée)",
+  "uid": "PA721036",
+  "civ": "M.",
+  "dateNais": "1992-02-19",
+  "dateDeces": "None",
+  "villeNais": "Saint Laurent du Maroni",
+  "paysNais": "France",
+  "prenom": "Lénaïck",
+  "nom": "Adam",
+  "picture": "https://www2.assemblee-nationale.fr/static/tribun/15/photos/721036.jpg"
+        }
+      },
+      "ageDeputeDebutMandat": 25.338812785388125
+    },
+    {
+      "acteur": {
+  "identity": 3651,
+  "labels": [
+          "Acteur"
+        ],
+  "properties": {
+  "profession": "Professeur du secondaire et technique",
+  "uid": "PA722070",
+  "civ": "M.",
+  "dateNais": "1991-11-26",
+  "dateDeces": "None",
+  "villeNais": "Fontenay-le-Comte",
+  "paysNais": "France",
+  "prenom": "Pierre",
+  "nom": "Henriet",
+  "picture": "https://www2.assemblee-nationale.fr/static/tribun/15/photos/722070.jpg"
+        }
+      },
+      "ageDeputeDebutMandat": 25.569634703196346
+    },
+    {
+      "acteur": {
+  "identity": 3601,
+  "labels": [
+          "Acteur"
+        ],
+  "properties": {
+  "profession": "Autres",
+  "civ": "M.",
+  "uid": "PA721678",
+  "dateNais": "1991-05-10",
+  "dateDeces": "None",
+  "villeNais": "Savigny-sur-Orge",
+  "paysNais": "France",
+  "prenom": "Robin",
+  "nom": "Reda",
+  "picture": "https://www2.assemblee-nationale.fr/static/tribun/15/photos/721678.jpg"
+        }
+      },
+      "ageDeputeDebutMandat": 26.1134703196347
+    },
+    {
+      "acteur": {
+  "identity": 3252,
+  "labels": [
+          "Acteur"
+        ],
+  "properties": {
+  "profession": "Conseiller juridique",
+  "uid": "PA718736",
+  "civ": "Mme",
+  "dateNais": "1991-03-23",
+  "dateDeces": "None",
+  "villeNais": "Vichy",
+  "paysNais": "France",
+  "prenom": "Bénédicte",
+  "nom": "Peyrol",
+  "picture": "https://www2.assemblee-nationale.fr/static/tribun/15/photos/718736.jpg"
+        }
+      },
+      "ageDeputeDebutMandat": 26.244520547945207
+    },
+    {
+      "acteur": {
+  "identity": 3341,
+  "labels": [
+          "Acteur"
+        ],
+  "properties": {
+  "profession": "Autre profession libérale",
+  "civ": "M.",
+  "uid": "PA719520",
+  "dateNais": "1990-11-26",
+  "dateDeces": "None",
+  "villeNais": "Toulouse",
+  "paysNais": "France",
+  "prenom": "Mickaël",
+  "nom": "Nogal",
+  "picture": "https://www2.assemblee-nationale.fr/static/tribun/15/photos/719520.jpg"
+        }
+      },
+      "ageDeputeDebutMandat": 26.569634703196346
+    },
+    {
+      "acteur": {
+  "identity": 3448,
+  "labels": [
+          "Acteur"
+        ],
+  "properties": {
+  "profession": "Employé (secteur privé)",
+  "civ": "M.",
+  "uid": "PA720422",
+  "dateNais": "1990-05-23",
+  "dateDeces": "None",
+  "villeNais": "Lille",
+  "paysNais": "FRANCE",
+  "prenom": "Adrien",
+  "nom": "Quatennens",
+  "picture": "https://www2.assemblee-nationale.fr/static/tribun/15/photos/720422.jpg"
+        }
+      },
+      "ageDeputeDebutMandat": 27.07785388127854
+    }
+  ]

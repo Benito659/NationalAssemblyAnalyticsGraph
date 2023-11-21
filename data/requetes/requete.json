@@ -1,0 +1,76 @@
+[
+    {
+        "id":1,
+        "question":"Quelles sont les députés qui votent le plus differement de leur partie politique ?",
+        "requete":"MATCH  (a:Acteur)-[l:VOTEDFOR]-> (t:Texte_de_loi) with a ,l, t  match  (o:Organe{uid:l.organeRef})-[v:VOTEDFOR{voteId:l.voteId}]-> (tbis:Texte_de_loi{uid:t.uid}) where l.positionVote <>v.positionMajoritaire  return a.prenom, a.nom, count(*) as nbVotesDif order by nbVotesDif desc limit 10"
+    },
+    {
+        "id":2,
+        "question":"Quelles sont les députés qui déleguent le plus leurs votes ?",
+        "requete":"MATCH (a:Acteur)-[l:VOTEDFOR{parDelegation:'true'}]-> (t:Texte_de_loi) return a.nom, a.prenom, count(*) as votesParDelegation order by votesParDelegation desc limit 10 "
+    },
+    {
+        "id":3,
+        "question":"Quelles sont les textes de loi avec le plus d'indécision dans les votes  ?",
+        "requete":"MATCH (a:Acteur)-[l:VOTEDFOR{positionVote:'abstention'}]-> (t:Texte_de_loi) return t.uid, t.titrePrincipal, t.type, count(*) as votes order by votes desc limit 10"
+    },
+    {
+        "id":4,
+        "question":"Quelle est le TOP 3 des députés les plus jeunes ?",
+        "requete":"MATCH (n:Acteur) return n ORDER by date(n.dateNais) desc LIMIT 3"
+    },
+    {
+        "id":5,
+        "question":"Quelles sont les députées qui on le plus changé de parti politiques ?",
+        "requete":" MATCH p=(n:Acteur)-[:ISPARTIPOLITIQUE]->(:Organe{codeType:'PARPOL'}) WITH n, Count(*) as ctn ORDER BY ctn desc RETURN n LIMIT 3;"
+    }
+    ,
+    {
+        "id":6,
+        "question":{
+            "question_1":"Parmi les députées combien à été auparavent ministre ?",
+            "question_2":"Quelles sont les parties ou les ancien ministres son le plus représentés ?"
+        },
+        "requete":{
+            "requete_1":"match (n) where (n:Acteur)-[:Ministre]->() WITH count(*) as ctn return ctn",
+            "requete_2":"MATCH p=(n:Acteur)-[:Ministre]->(o:Organe) with n match (:Acteur{uid:n.uid})-[:Membre]->(o:Organe{codeType:'PARPOL'}) return o, Count(*) as ctn ORDER BY ctn desc RETURN o LIMIT 3;"
+        }
+    }
+    ,
+    {
+        "id":7,
+        "question":"Quelle groupe politique fais le plus d'amendement ?",
+        "requete":"match(n:Organe{codeType:'PARPOL'})<-[:ISPARTIPOLITIQUE]-(ac: Acteur)-[s:Soumet]->(:Amendement) with n,count(n) as  ctn order by ctn desc limit 3 return n,ctn;"
+    }
+    ,
+    {
+        "id":8,
+        "question":" Quelle dossiers legislatifs on subit le plus d'amendement ?",
+        "requete":"match (a:DossierLegislatif)-[l:Subit]-> (o:Amendement)  with a , count(a) as ctn order by ctn desc return  a limit 5;"
+    },
+    {
+        "id":9,
+        "question":{
+            "question_1":"Quelle est le Top 3 des groupes politiques avec le plus d'amendements rejeté ?",
+            "question_2":"Quelle est le Top 3 des groupes politiques avec le plus d'amendements adopté ?"
+        },
+        "requete":{
+            "requete_1":"match (:Amendement{resultatVoteFinal:'Rejeté'})<-[:Soumet]-(:Acteur)-[:ISPARTIPOLITIQUE]->(n: Organe{codeType:'GP'}) with n, count(n) as ctn order by ctn desc return  n limit 3;",
+            "requete_2":"match (:Amendement{resultatVoteFinal:'Adopté'})<-[:Soumet]-(:Acteur)-[:ISPARTIPOLITIQUE]->(n: Organe{codeType:'GP'}) with n, count(n) as ctn order by ctn desc return  n limit 3;"
+        }
+    },
+    {
+        
+
+
+        "id":10,
+        "question":{
+            "question_1":"Quelle est le Top 3 des dossiers avec le plus d'amendement rejeté ?",
+            "question_2":"Quelle est le Top 3 des dossiers avec le plus d'amendement rejeté ?"
+        },
+        "requete":{
+            "requete_1":"match (a: DossierLegislatif)-[:Subit]->(: Amendement{resultatVoteFinal:'Rejeté'}) with a,count(a) as ctn order by ctn desc return a limit 3;",
+            "requete_2":"match (a: DossierLegislatif)-[:Subit]->(: Amendement{resultatVoteFinal:'Adopté'}) with a,count(a) as ctn order by ctn desc return a limit 3;"
+        }
+    }
+]

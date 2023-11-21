@@ -1,0 +1,212 @@
+﻿[
+  {
+    "acteur": {
+"identity": 3474,
+"labels": [
+        "Acteur"
+      ],
+"properties": {
+"profession": "Employé (secteur privé)",
+"uid": "PA720630",
+"civ": "M.",
+"dateNais": "1987-07-20",
+"dateDeces": "None",
+"villeNais": "Clermont-de-l'Oise",
+"paysNais": "France",
+"prenom": "Maxime",
+"nom": "Minot",
+"picture": "https://www2.assemblee-nationale.fr/static/tribun/15/photos/720630.jpg"
+      }
+    },
+    "nbVotesDif": 188
+  },
+  {
+    "acteur": {
+"identity": 2929,
+"labels": [
+        "Acteur"
+      ],
+"properties": {
+"profession": "Professeur du secondaire",
+"uid": "PA607619",
+"civ": "M.",
+"dateNais": "1962-05-21",
+"dateDeces": "None",
+"villeNais": "Ploërmel",
+"paysNais": "France",
+"nom": "Molac",
+"prenom": "Paul",
+"picture": "https://www2.assemblee-nationale.fr/static/tribun/15/photos/607619.jpg"
+      }
+    },
+    "nbVotesDif": 137
+  },
+  {
+    "acteur": {
+"identity": 3520,
+"labels": [
+        "Acteur"
+      ],
+"properties": {
+"profession": "Autre cadre (secteur privé)",
+"civ": "M.",
+"uid": "PA720996",
+"dateNais": "1983-04-25",
+"dateDeces": "None",
+"villeNais": "Aurillac",
+"paysNais": "France",
+"prenom": "M'jid",
+"nom": "El Guerrab",
+"picture": "https://www2.assemblee-nationale.fr/static/tribun/15/photos/720996.jpg"
+      }
+    },
+    "nbVotesDif": 136
+  },
+  {
+    "acteur": {
+"identity": 3543,
+"labels": [
+        "Acteur"
+      ],
+"properties": {
+"profession": "Industriel-Chef d'entreprise",
+"civ": "Mme",
+"uid": "PA721194",
+"dateNais": "1963-05-18",
+"dateDeces": "None",
+"villeNais": "Paris 20ème",
+"paysNais": "France",
+"prenom": "Frédérique",
+"nom": "Dumas",
+"picture": "https://www2.assemblee-nationale.fr/static/tribun/15/photos/721194.jpg"
+      }
+    },
+    "nbVotesDif": 108
+  },
+  {
+    "acteur": {
+"identity": 3434,
+"labels": [
+        "Acteur"
+      ],
+"properties": {
+"profession": "Fonctionnaire de catégorie A",
+"civ": "Mme",
+"uid": "PA720298",
+"dateNais": "1971-10-14",
+"dateDeces": "None",
+"villeNais": "VERDUN",
+"paysNais": "FRANCE",
+"prenom": "Émilie",
+"nom": "Cariou",
+"picture": "https://www2.assemblee-nationale.fr/static/tribun/15/photos/720298.jpg"
+      }
+    },
+    "nbVotesDif": 92
+  },
+  {
+    "acteur": {
+"identity": 3253,
+"labels": [
+        "Acteur"
+      ],
+"properties": {
+"profession": "Médecin",
+"uid": "PA718744",
+"civ": "Mme",
+"dateNais": "1970-01-09",
+"dateDeces": "None",
+"villeNais": "Lyon",
+"paysNais": "France",
+"prenom": "Delphine",
+"nom": "Bagarry",
+"picture": "https://www2.assemblee-nationale.fr/static/tribun/15/photos/718744.jpg"
+      }
+    },
+    "nbVotesDif": 87
+  },
+  {
+    "acteur": {
+"identity": 3593,
+"labels": [
+        "Acteur"
+      ],
+"properties": {
+"profession": "agent immobilier",
+"civ": "Mme",
+"uid": "PA721632",
+"dateNais": "1961-12-30",
+"dateDeces": "None",
+"villeNais": "Enghien-les-Bains",
+"paysNais": "France",
+"prenom": "Patricia",
+"nom": "Lemoine",
+"picture": "https://www2.assemblee-nationale.fr/static/tribun/15/photos/721632.jpg"
+      }
+    },
+    "nbVotesDif": 84
+  },
+  {
+    "acteur": {
+"identity": 3678,
+"labels": [
+        "Acteur"
+      ],
+"properties": {
+"profession": "Directrice médicale et directrice de développement en entreprise",
+"uid": "PA722268",
+"civ": "Mme",
+"dateNais": "1964-03-27",
+"dateDeces": "None",
+"villeNais": "Hayange",
+"paysNais": "France",
+"prenom": "Martine",
+"nom": "Wonner",
+"picture": "https://www2.assemblee-nationale.fr/static/tribun/15/photos/722268.jpg"
+      }
+    },
+    "nbVotesDif": 84
+  },
+  {
+    "acteur": {
+"identity": 3290,
+"labels": [
+        "Acteur"
+      ],
+"properties": {
+"profession": "Cadre (entreprises publiques)",
+"uid": "PA719092",
+"civ": "Mme",
+"dateNais": "1956-06-29",
+"dateDeces": "None",
+"villeNais": "Châtellerault",
+"paysNais": "France",
+"prenom": "Frédérique",
+"nom": "Tuffnell",
+"picture": "https://www2.assemblee-nationale.fr/static/tribun/15/photos/719092.jpg"
+      }
+    },
+    "nbVotesDif": 75
+  },
+  {
+    "acteur": {
+"identity": 2858,
+"labels": [
+        "Acteur"
+      ],
+"properties": {
+"profession": "Profession libérale",
+"uid": "PA605518",
+"civ": "M.",
+"dateNais": "1966-08-24",
+"dateDeces": "None",
+"villeNais": "La Havane",
+"paysNais": "Cuba",
+"prenom": "François-Michel",
+"nom": "Lambert",
+"picture": "https://www2.assemblee-nationale.fr/static/tribun/15/photos/605518.jpg"
+      }
+    },
+    "nbVotesDif": 65
+  }
+]

@@ -1,0 +1,212 @@
+[
+    {
+      "acteur": {
+  "identity": 3400,
+  "labels": [
+          "Acteur"
+        ],
+  "properties": {
+  "profession": "Docteur, Ingénieur Recherche et Dévelopement",
+  "uid": "PA720014",
+  "civ": "Mme",
+  "dateNais": "1982-04-01",
+  "dateDeces": "None",
+  "villeNais": "Bangassogo",
+  "paysNais": "Burkina Faso",
+  "prenom": "Huguette",
+  "nom": "Tiegna",
+  "picture": "https://www2.assemblee-nationale.fr/static/tribun/15/photos/720014.jpg"
+        }
+      },
+      "votesParDelegation": 767
+    },
+    {
+      "acteur": {
+  "identity": 3509,
+  "labels": [
+          "Acteur"
+        ],
+  "properties": {
+  "profession": "Avocat",
+  "uid": "PA720908",
+  "civ": "Mme",
+  "dateNais": "1980-11-04",
+  "dateDeces": "None",
+  "villeNais": "Ermont",
+  "paysNais": "France",
+  "prenom": "Naïma",
+  "nom": "Moutchou",
+  "picture": "https://www2.assemblee-nationale.fr/static/tribun/15/photos/720908.jpg"
+        }
+      },
+      "votesParDelegation": 711
+    },
+    {
+      "acteur": {
+  "identity": 2851,
+  "labels": [
+          "Acteur"
+        ],
+  "properties": {
+  "profession": "Autre profession",
+  "uid": "PA605131",
+  "civ": "M.",
+  "dateNais": "1966-01-03",
+  "dateDeces": "None",
+  "villeNais": "Ollioules",
+  "paysNais": "France",
+  "prenom": "Christophe",
+  "nom": "Castaner",
+  "picture": "https://www2.assemblee-nationale.fr/static/tribun/15/photos/605131.jpg"
+        }
+      },
+      "votesParDelegation": 686
+    },
+    {
+      "acteur": {
+  "identity": 3597,
+  "labels": [
+          "Acteur"
+        ],
+  "properties": {
+  "profession": "Directrice d’un centre de formation des apprentis",
+  "uid": "PA721656",
+  "civ": "Mme",
+  "dateNais": "1987-10-30",
+  "dateDeces": "None",
+  "villeNais": "Toulon",
+  "paysNais": "France",
+  "prenom": "Cécile",
+  "nom": "Muschotti",
+  "picture": "https://www2.assemblee-nationale.fr/static/tribun/15/photos/721656.jpg"
+        }
+      },
+      "votesParDelegation": 596
+    },
+    {
+      "acteur": {
+  "identity": 1863,
+  "labels": [
+          "Acteur"
+        ],
+  "properties": {
+  "profession": "Professeur",
+  "uid": "PA2150",
+  "civ": "M.",
+  "dateNais": "1951-08-19",
+  "dateDeces": "None",
+  "villeNais": "Tanger",
+  "paysNais": "Maroc",
+  "prenom": "Jean-Luc",
+  "nom": "Mélenchon",
+  "picture": "https://www2.assemblee-nationale.fr/static/tribun/15/photos/2150.jpg"
+        }
+      },
+      "votesParDelegation": 560
+    },
+    {
+      "acteur": {
+  "identity": 3343,
+  "labels": [
+          "Acteur"
+        ],
+  "properties": {
+  "profession": "Fonctionnaire de catégorie A",
+  "civ": "Mme",
+  "uid": "PA719540",
+  "dateNais": "1954-12-17",
+  "dateDeces": "None",
+  "villeNais": "Blida",
+  "paysNais": "Algérie",
+  "prenom": "Élisabeth",
+  "nom": "Toutut-Picard",
+  "picture": "https://www2.assemblee-nationale.fr/static/tribun/15/photos/719540.jpg"
+        }
+      },
+      "votesParDelegation": 558
+    },
+    {
+      "acteur": {
+  "identity": 3648,
+  "labels": [
+          "Acteur"
+        ],
+  "properties": {
+  "profession": "Cadre supérieur (secteur privé)",
+  "uid": "PA722046",
+  "civ": "Mme",
+  "dateNais": "1986-11-13",
+  "dateDeces": "None",
+  "villeNais": "Paris",
+  "paysNais": "France",
+  "prenom": "Aurore",
+  "nom": "Bergé",
+  "picture": "https://www2.assemblee-nationale.fr/static/tribun/15/photos/722046.jpg"
+        }
+      },
+      "votesParDelegation": 556
+    },
+    {
+      "acteur": {
+  "identity": 3270,
+  "labels": [
+          "Acteur"
+        ],
+  "properties": {
+  "profession": "Avocat",
+  "uid": "PA718918",
+  "civ": "Mme",
+  "dateNais": "1983-09-17",
+  "dateDeces": "None",
+  "villeNais": "Grenoble",
+  "paysNais": "France",
+  "prenom": "Alexandra",
+  "nom": "Louis",
+  "picture": "https://www2.assemblee-nationale.fr/static/tribun/15/photos/718918.jpg"
+        }
+      },
+      "votesParDelegation": 546
+    },
+    {
+      "acteur": {
+  "identity": 3584,
+  "labels": [
+          "Acteur"
+        ],
+  "properties": {
+  "profession": "Directeur communication et affaires publiques",
+  "uid": "PA721560",
+  "civ": "M.",
+  "dateNais": "1977-12-29",
+  "dateDeces": "None",
+  "villeNais": "Saint-Rémy",
+  "paysNais": "France",
+  "prenom": "Benjamin",
+  "nom": "Griveaux",
+  "picture": "https://www2.assemblee-nationale.fr/static/tribun/15/photos/721560.jpg"
+        }
+      },
+      "votesParDelegation": 457
+    },
+    {
+      "acteur": {
+  "identity": 3643,
+  "labels": [
+          "Acteur"
+        ],
+  "properties": {
+  "profession": "Cadre supérieur (secteur privé)",
+  "uid": "PA722000",
+  "civ": "M.",
+  "dateNais": "1974-03-14",
+  "dateDeces": "None",
+  "villeNais": "Strasbourg",
+  "paysNais": "France",
+  "prenom": "Stéphane",
+  "nom": "Buchou",
+  "picture": "https://www2.assemblee-nationale.fr/static/tribun/15/photos/722000.jpg"
+        }
+      },
+      "votesParDelegation": 450
+    }
+  ]

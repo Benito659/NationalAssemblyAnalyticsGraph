@@ -1,0 +1,212 @@
+[
+    {
+      "acteur": {
+  "identity": 3031,
+  "labels": [
+          "Acteur"
+        ],
+  "properties": {
+  "profession": "Cadre supérieur de la fonction publique",
+  "uid": "PA610775",
+  "civ": "M.",
+  "dateNais": "1958-10-27",
+  "dateDeces": "None",
+  "villeNais": "Alger",
+  "paysNais": "Algérie",
+  "prenom": "Philippe",
+  "nom": "Gomès",
+  "picture": "https://www2.assemblee-nationale.fr/static/tribun/15/photos/610775.jpg"
+        }
+      },
+      "ctn": 6
+    },
+    {
+      "acteur": {
+  "identity": 2147,
+  "labels": [
+          "Acteur"
+        ],
+  "properties": {
+  "profession": "Chef d'entreprise",
+  "uid": "PA267358",
+  "civ": "M.",
+  "dateNais": "1951-01-24",
+  "dateDeces": "None",
+  "villeNais": "Ribeauvillé",
+  "paysNais": "France",
+  "prenom": "Jean-Louis",
+  "nom": "Christ",
+  "picture": "https://www2.assemblee-nationale.fr/static/tribun/14/photos/267358.jpg"
+        }
+      },
+      "ctn": 5
+    },
+    {
+      "acteur": {
+  "identity": 3955,
+  "labels": [
+          "Acteur"
+        ],
+  "properties": {
+  "profession": "Cadre d'entreprise",
+  "uid": "PA923",
+  "civ": "M.",
+  "dateNais": "1958-05-22",
+  "dateDeces": "None",
+  "villeNais": "Saint-Mandé",
+  "paysNais": "France",
+  "prenom": "François",
+  "nom": "Cornut-Gentille",
+  "picture": "https://www2.assemblee-nationale.fr/static/tribun/15/photos/923.jpg"
+        }
+      },
+      "ctn": 5
+    },
+    {
+      "acteur": {
+  "identity": 2340,
+  "labels": [
+          "Acteur"
+        ],
+  "properties": {
+  "profession": "Opticien",
+  "uid": "PA2876",
+  "civ": "M.",
+  "dateNais": "1962-10-20",
+  "dateDeces": "None",
+  "villeNais": "Épinal",
+  "paysNais": "None",
+  "prenom": "François",
+  "nom": "Vannson",
+  "picture": "https://www2.assemblee-nationale.fr/static/tribun/14/photos/2876.jpg"
+        }
+      },
+      "ctn": 5
+    },
+    {
+      "acteur": {
+  "identity": 2351,
+  "labels": [
+          "Acteur"
+        ],
+  "properties": {
+  "profession": "Biologiste",
+  "civ": "M.",
+  "uid": "PA2907",
+  "dateNais": "1951-01-30",
+  "dateDeces": "None",
+  "villeNais": "Saint-Étienne",
+  "paysNais": "France",
+  "prenom": "Jean-Sébastien",
+  "nom": "Vialatte",
+  "picture": "https://www2.assemblee-nationale.fr/static/tribun/14/photos/2907.jpg"
+        }
+      },
+      "ctn": 5
+    },
+    {
+      "acteur": {
+  "identity": 3963,
+  "labels": [
+          "Acteur"
+        ],
+  "properties": {
+  "profession": "Cardiologue",
+  "uid": "PA951",
+  "civ": "M.",
+  "dateNais": "1940-01-03",
+  "dateDeces": "None",
+  "villeNais": "Le Muy",
+  "paysNais": "France",
+  "prenom": "Jean-Michel",
+  "nom": "Couve",
+  "picture": "https://www2.assemblee-nationale.fr/static/tribun/14/photos/951.jpg"
+        }
+      },
+      "ctn": 5
+    },
+    {
+      "acteur": {
+  "identity": 2211,
+  "labels": [
+          "Acteur"
+        ],
+  "properties": {
+  "profession": "{'@xmlns:xsi': 'http://www.w3.org/2001/XMLSchema-instance', '@xsi:nil': 'true'}",
+  "uid": "PA267689",
+  "civ": "M.",
+  "dateNais": "1954-05-21",
+  "dateDeces": "None",
+  "villeNais": "Porto-Vecchio",
+  "paysNais": "France",
+  "prenom": "Camille",
+  "nom": "de Rocca Serra",
+  "picture": "https://www2.assemblee-nationale.fr/static/tribun/14/photos/267689.jpg"
+        }
+      },
+      "ctn": 5
+    },
+    {
+      "acteur": {
+  "identity": 2245,
+  "labels": [
+          "Acteur"
+        ],
+  "properties": {
+  "profession": "Cadre d'entreprise",
+  "uid": "PA267822",
+  "civ": "M.",
+  "dateNais": "1952-04-10",
+  "dateDeces": "None",
+  "villeNais": "Paris 15ème",
+  "paysNais": "France",
+  "prenom": "Jacques Alain",
+  "nom": "Bénisti",
+  "picture": "https://www2.assemblee-nationale.fr/static/tribun/14/photos/267822.jpg"
+        }
+      },
+      "ctn": 5
+    },
+    {
+      "acteur": {
+  "identity": 3968,
+  "labels": [
+          "Acteur"
+        ],
+  "properties": {
+  "profession": "Président de sociétés",
+  "uid": "PA998",
+  "civ": "M.",
+  "dateNais": "1951-06-01",
+  "dateDeces": "2021-03-07",
+  "villeNais": "Boulogne-Billancourt",
+  "paysNais": "France",
+  "prenom": "Olivier",
+  "nom": "Dassault",
+  "picture": "https://www2.assemblee-nationale.fr/static/tribun/15/photos/998.jpg"
+        }
+      },
+      "ctn": 5
+    },
+    {
+      "acteur": {
+  "identity": 2209,
+  "labels": [
+          "Acteur"
+        ],
+  "properties": {
+  "profession": "Chef d'entreprise",
+  "uid": "PA267680",
+  "civ": "M.",
+  "dateNais": "1956-05-14",
+  "dateDeces": "None",
+  "villeNais": "Nice",
+  "paysNais": "France",
+  "prenom": "Charles-Ange",
+  "nom": "Ginesy",
+  "picture": "https://www2.assemblee-nationale.fr/static/tribun/14/photos/267680.jpg"
+        }
+      },
+      "ctn": 5
+    }
+  ]

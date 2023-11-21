@@ -1,0 +1,162 @@
+[
+    {
+      "organe": {
+  "identity": 801,
+  "labels": [
+          "Organe"
+        ],
+  "properties": {
+  "uid": "PO684932",
+  "dateFin": "None",
+  "codeType": "PARPOL",
+  "dateDebut": "None",
+  "libelle": "Parti socialiste"
+        }
+      },
+      "ctn": 39
+    },
+    {
+      "organe": {
+  "identity": 1022,
+  "labels": [
+          "Organe"
+        ],
+  "properties": {
+  "uid": "PO710396",
+  "dateFin": "None",
+  "codeType": "PARPOL",
+  "dateDebut": "2015-12-01",
+  "libelle": "Les Républicains"
+        }
+      },
+      "ctn": 39
+    },
+    {
+      "organe": {
+  "identity": 806,
+  "labels": [
+          "Organe"
+        ],
+  "properties": {
+  "uid": "PO684942",
+  "dateFin": "2015-11-30",
+  "codeType": "PARPOL",
+  "dateDebut": "None",
+  "libelle": "Union pour un Mouvement Populaire"
+        }
+      },
+      "ctn": 38
+    },
+    {
+      "organe": {
+  "identity": 802,
+  "labels": [
+          "Organe"
+        ],
+  "properties": {
+  "uid": "PO684934",
+  "dateFin": "None",
+  "codeType": "PARPOL",
+  "dateDebut": "None",
+  "libelle": "Parti radical de gauche"
+        }
+      },
+      "ctn": 6
+    },
+    {
+      "organe": {
+  "identity": 1351,
+  "labels": [
+          "Organe"
+        ],
+  "properties": {
+  "uid": "PO761294",
+  "dateFin": "None",
+  "codeType": "PARPOL",
+  "dateDebut": "None",
+  "libelle": "La République en Marche"
+        }
+      },
+      "ctn": 6
+    },
+    {
+      "organe": {
+  "identity": 1281,
+  "labels": [
+          "Organe"
+        ],
+  "properties": {
+  "uid": "PO744854",
+  "dateFin": "2018-11-30",
+  "codeType": "PARPOL",
+  "dateDebut": "None",
+  "libelle": "En marche !"
+        }
+      },
+      "ctn": 6
+    },
+    {
+      "organe": {
+  "identity": 822,
+  "labels": [
+          "Organe"
+        ],
+  "properties": {
+  "uid": "PO685872",
+  "dateFin": "None",
+  "codeType": "PARPOL",
+  "dateDebut": "None",
+  "libelle": "Association PSLE - Nouveau Centre"
+        }
+      },
+      "ctn": 3
+    },
+    {
+      "organe": {
+  "identity": 803,
+  "labels": [
+          "Organe"
+        ],
+  "properties": {
+  "uid": "PO684936",
+  "dateFin": "None",
+  "codeType": "PARPOL",
+  "dateDebut": "None",
+  "libelle": "Europe Écologie Les Verts"
+        }
+      },
+      "ctn": 3
+    },
+    {
+      "organe": {
+  "identity": 1286,
+  "labels": [
+          "Organe"
+        ],
+  "properties": {
+  "uid": "PO744864",
+  "dateFin": "None",
+  "codeType": "PARPOL",
+  "dateDebut": "None",
+  "libelle": "Union des démocrates, radicaux et libéraux"
+        }
+      },
+      "ctn": 2
+    },
+    {
+      "organe": {
+  "identity": 805,
+  "labels": [
+          "Organe"
+        ],
+  "properties": {
+  "uid": "PO684940",
+  "dateFin": "2017-06-20",
+  "codeType": "PARPOL",
+  "dateDebut": "None",
+  "libelle": "Union des radicaux centristes, indépendants et démocrates"
+        }
+      },
+      "ctn": 2
+    }
+  ]

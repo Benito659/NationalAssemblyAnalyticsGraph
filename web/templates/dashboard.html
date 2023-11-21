@@ -1,0 +1,846 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Nos Députés - Dashboard de visualisation Requetes.</title>
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+    <meta name="description" content="Tables are the backbone of almost all web applications.">
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <link href="main.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header">
+        <div class="app-header header-shadow">
+            <div class="app-header__logo">
+                <div class="logo-src"></div>
+                <div class="header__pane ml-auto">
+                    <div>
+                        <button type="button" class="hamburger close-sidebar-btn hamburger--elastic"
+                            data-class="closed-sidebar">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="app-header__mobile-menu">
+                <div>
+                    <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="app-header__menu">
+                <span>
+                    <button type="button"
+                        class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+                        <span class="btn-icon-wrapper">
+                            <i class="fa fa-ellipsis-v fa-w-6"></i>
+                        </span>
+                    </button>
+                </span>
+            </div>
+            <div class="app-header__content">
+                <div class="app-header-left">
+                    <div class="search-wrapper">
+                        <div class="input-holder">
+                            <form action="filteredDashboard" method="post">
+                                <input type="number" value="3" name="filter" class="search-input"
+                                    placeholder="Type the number of results to filter">
+                                <button type="submit" class="search-icon"><span></span></button>
+                            </form>
+
+                        </div>
+                        <button class="close"></button>
+                    </div>
+                    <ul class="header-menu nav">
+                        <li class="nav-item">
+                            <a href="/dashboard" class="nav-link">
+                                <i class="nav-link-icon fa fa-database"> </i>
+                                <b style="font-weight: bolder;">Live Data View </b>
+                            </a>
+                        </li>
+
+                        <li class="btn-group nav-item">
+                            <a href="/" class="nav-link">
+                                <i class="nav-link-icon fa fa-edit"></i>
+                                <b style="font-weight: bolder;">Stored Data View</b>
+                            </a>
+                        </li>
+                        <!--
+               <li class="dropdown nav-item">
+                  <a href="javascript:void(0);" class="nav-link">
+                      <i class="nav-link-icon fa fa-cog"></i>
+                      Settings
+                  </a>
+              </li> -->
+                    </ul>
+                </div>
+                <div class="app-header-right">
+                    <div class="header-btn-lg pr-0">
+                        <div class="widget-content p-0">
+                            <div class="widget-content-wrapper">
+                                <div class="widget-content-left">
+                                    <div class="btn-group">
+                                        <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                                            class="p-0 btn">
+                                            <img width="42" class="rounded-circle"
+                                                src="assets/images/avatars/avatar.png" alt="">
+                                            <i class="fa fa-angle-down ml-2 opacity-8"></i>
+                                        </a>
+                                        <div tabindex="-1" role="menu" aria-hidden="true"
+                                            class="dropdown-menu dropdown-menu-right">
+                                            <h6 tabindex="-1" class="dropdown-header">Autors</h6>
+                                            <div tabindex="-1" class="dropdown-divider"></div>
+                                            <button type="button" tabindex="0" class="dropdown-item">Benito W.</button>
+                                            <button type="button" tabindex="0" class="dropdown-item">Jordan N.</button>
+                                            <button type="button" tabindex="0" class="dropdown-item">Samy M.</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="app-main">
+            <div class="">
+                <div class="app-main__inner">
+                    <div class="app-page-title">
+                        <div class="page-title-wrapper">
+                            <div class="page-title-heading">
+                                <div class="page-title-icon">
+                                    <i class="pe-7s-note2 icon-gradient bg-happy-itmeo">
+                                    </i>
+                                </div>
+                                <div>LIVE VIEW
+                                    <div class="page-title-subheading">Nos Députés - Dashboard de visualisation
+                                        Requetes.
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="ml-5 col-lg-6">
+                                <form class="form-inline ml-3" action="filteredDashboard" method="post">
+                                    <div class="form-group mx-sm-3 mb-2">
+                                        <label for="filter" class="sr-only">Nombre de resultats</label>
+                                        <input type="number" min="1" max="10" class="form-control" id="filter"
+                                            name="filter" placeholder="Nombre de resultats">
+                                    </div>
+                                    <button type="submit" class="btn btn-primary mb-2 mr-3">Filtrer</button>
+                                    <span class="badge badge-primary ml-3">{{limit}} Résultat(s)</span>
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col-lg-6">
+                            <div class="mb-3 card">
+                                <div class="card-header-tab card-header-tab-animation card-header">
+                                    <div class="card-header-title">
+                                        <i class="header-icon lnr-apartment icon-gradient bg-love-kiss"> </i>
+                                        Requête 1 - Députés les plus jeunes
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="tab-content">
+                                        <div class="tab-pane fade show active" id="tabs-eg-77">
+                                            <h6 class="text-muted  font-size-md opacity-5 font-weight-normal">L'âge
+                                                n'est qu'un chiffre...
+                                            </h6>
+
+                                            {% if not data %}
+                                            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                                                <strong>No data Found!</strong> Please import the dataset to view live
+                                                queries
+                                                <button type="button" class="close" data-dismiss="alert"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            {% endif %}
+                                            <div class="scroll-area-sm">
+                                                <div class="scrollbar-container ps ps--active-y">
+                                                    <ul
+                                                        class="rm-list-borders rm-list-borders-scroll list-group list-group-flush">
+                                                        {% for acteur in data["youngest"] %}
+                                                        <li class="list-group-item">
+                                                            <div class="widget-content p-0">
+                                                                <div class="widget-content-wrapper">
+                                                                    <div class="widget-content-left mr-3">
+                                                                        <img width="42" class="rounded-circle"
+                                                                            src="{{acteur.get('picture')}}" alt="">
+                                                                    </div>
+                                                                    <div class="widget-content-left">
+                                                                        <div class="widget-heading">{{ acteur.get("nom")
+                                                                            }} {{ acteur.get("prenom") }} </div>
+                                                                        <div class="widget-subheading">{{
+                                                                            acteur.get("profession") }} </div>
+                                                                    </div>
+                                                                    <div class="widget-content-right">
+                                                                        <div class="font-size-xlg text-muted">
+                                                                            <span>{{ acteur.get("age") }} </span>
+                                                                            <span>ans</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        {% endfor %}
+                                                    </ul>
+                                                    <div class="ps__rail-x" style="left: 0px; bottom: 0px;">
+                                                        <div class="ps__thumb-x" tabindex="0"
+                                                            style="left: 0px; width: 0px;"></div>
+                                                    </div>
+                                                    <div class="ps__rail-y"
+                                                        style="top: 0px; height: 200px; right: 0px;">
+                                                        <div class="ps__thumb-y" tabindex="0"
+                                                            style="top: 0px; height: 139px;"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="mb-3 card">
+                                <div class="card-header-tab card-header-tab-animation card-header">
+                                    <div class="card-header-title">
+                                        <i class="header-icon lnr-apartment icon-gradient bg-love-kiss"> </i>
+                                        Requête 2 - Députés qui sont décédés le plus rapidement après leur nomination
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="tab-content">
+                                        <div class="tab-pane fade show active" id="tabs-eg-77">
+                                            <h6 class="text-muted  font-size-md opacity-5 font-weight-normal">Rest in
+                                                peace...
+                                            </h6>
+                                            {% if not data %}
+                                            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                                                <strong>No data Found!</strong> Please import the dataset to view live
+                                                queries
+                                                <button type="button" class="close" data-dismiss="alert"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            {% endif %}
+                                            <div class="scroll-area-sm">
+                                                <div class="scrollbar-container ps ps--active-y">
+                                                    <ul
+                                                        class="rm-list-borders rm-list-borders-scroll list-group list-group-flush">
+                                                        {% for acteur in data["earlyDeaths"] %}
+                                                        <li class="list-group-item">
+                                                            <div class="widget-content p-0">
+                                                                <div class="widget-content-wrapper">
+                                                                    <div class="widget-content-left mr-3">
+                                                                        <img width="42" class="rounded-circle"
+                                                                            src="{{acteur.get('picture')}}" alt="">
+                                                                    </div>
+                                                                    <div class="widget-content-left">
+                                                                        <div class="widget-heading">{{ acteur.get("nom")
+                                                                            }} {{ acteur.get("prenom") }} </div>
+                                                                        <div class="widget-subheading">{{
+                                                                            acteur.get("profession") }} </div>
+                                                                    </div>
+                                                                    <div class="widget-content-right">
+                                                                        <div class="font-size-xlg text-muted">
+                                                                            <span>{{ acteur.get("duree") }} </span>
+                                                                            <span>Jours</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        {% endfor %}
+                                                    </ul>
+                                                    <div class="ps__rail-x" style="left: 0px; bottom: 0px;">
+                                                        <div class="ps__thumb-x" tabindex="0"
+                                                            style="left: 0px; width: 0px;"></div>
+                                                    </div>
+                                                    <div class="ps__rail-y"
+                                                        style="top: 0px; height: 200px; right: 0px;">
+                                                        <div class="ps__thumb-y" tabindex="0"
+                                                            style="top: 0px; height: 139px;"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col-lg-6">
+                            <div class="mb-3 card">
+                                <div class="card-header-tab card-header-tab-animation card-header">
+                                    <div class="card-header-title">
+                                        <i class="header-icon lnr-apartment icon-gradient bg-love-kiss"> </i>
+                                        Requête 3 - Députés qui déléguent le plus leurs votes
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="tab-content">
+                                        <div class="tab-pane fade show active" id="tabs-eg-77">
+                                            <h6 class="text-muted  font-size-md opacity-5 font-weight-normal">Je suis
+                                                occupé(é) moi...
+                                            </h6>
+                                            {% if not data %}
+                                            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                                                <strong>No data Found!</strong> Please import the dataset to view live
+                                                queries
+                                                <button type="button" class="close" data-dismiss="alert"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            {% endif %}
+                                            <div class="scroll-area-sm">
+                                                <div class="scrollbar-container ps ps--active-y">
+                                                    <ul
+                                                        class="rm-list-borders rm-list-borders-scroll list-group list-group-flush">
+                                                        {% for acteur in data["delegators"] %}
+                                                        <li class="list-group-item">
+                                                            <div class="widget-content p-0">
+                                                                <div class="widget-content-wrapper">
+                                                                    <div class="widget-content-left mr-3">
+                                                                        <img width="42" class="rounded-circle"
+                                                                            src="{{acteur.get('picture')}}" alt="">
+                                                                    </div>
+                                                                    <div class="widget-content-left">
+                                                                        <div class="widget-heading">{{ acteur.get("nom")
+                                                                            }} {{ acteur.get("prenom") }} </div>
+                                                                        <div class="widget-subheading">{{
+                                                                            acteur.get("profession") }} </div>
+                                                                    </div>
+                                                                    <div class="widget-content-right">
+                                                                        <div class="font-size-xlg text-muted">
+                                                                            <span>{{ acteur.get("nombre") }} </span>
+                                                                            <span>fois</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        {% endfor %}
+                                                    </ul>
+                                                    <div class="ps__rail-x" style="left: 0px; bottom: 0px;">
+                                                        <div class="ps__thumb-x" tabindex="0"
+                                                            style="left: 0px; width: 0px;"></div>
+                                                    </div>
+                                                    <div class="ps__rail-y"
+                                                        style="top: 0px; height: 200px; right: 0px;">
+                                                        <div class="ps__thumb-y" tabindex="0"
+                                                            style="top: 0px; height: 139px;"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="mb-3 card">
+                                <div class="card-header-tab card-header-tab-animation card-header">
+                                    <div class="card-header-title">
+                                        <i class="header-icon lnr-apartment icon-gradient bg-love-kiss"> </i>
+                                        Requête 3 - Députés qui ont le plus changé de groupe politique
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="tab-content">
+                                        <div class="tab-pane fade show active" id="tabs-eg-77">
+                                            <h6 class="text-muted text font-size-md opacity-5 font-weight-normal">Les
+                                                retourneurs de veste...
+                                            </h6>
+                                            {% if not data %}
+                                            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                                                <strong>No data Found!</strong> Please import the dataset to view live
+                                                queries
+                                                <button type="button" class="close" data-dismiss="alert"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            {% endif %}
+                                            <div class="scroll-area-sm">
+                                                <div class="scrollbar-container ps ps--active-y">
+                                                    <ul
+                                                        class="rm-list-borders rm-list-borders-scroll list-group list-group-flush">
+                                                        {% for acteur in data["changers"] %}
+                                                        <li class="list-group-item">
+                                                            <div class="widget-content p-0">
+                                                                <div class="widget-content-wrapper">
+                                                                    <div class="widget-content-left mr-3">
+                                                                        <img width="42" class="rounded-circle"
+                                                                            src="{{acteur.get('picture')}}" alt="">
+                                                                    </div>
+                                                                    <div class="widget-content-left">
+                                                                        <div class="widget-heading">{{ acteur.get("nom")
+                                                                            }} {{ acteur.get("prenom") }} </div>
+                                                                        <div class="widget-subheading">{{
+                                                                            acteur.get("profession") }} </div>
+                                                                    </div>
+                                                                    <div class="widget-content-right">
+                                                                        <div class="font-size-xlg text-muted">
+                                                                            <span>{{ acteur.get("nombre") }} </span>
+                                                                            <span>fois</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        {% endfor %}
+                                                    </ul>
+                                                    <div class="ps__rail-x" style="left: 0px; bottom: 0px;">
+                                                        <div class="ps__thumb-x" tabindex="0"
+                                                            style="left: 0px; width: 0px;"></div>
+                                                    </div>
+                                                    <div class="ps__rail-y"
+                                                        style="top: 0px; height: 200px; right: 0px;">
+                                                        <div class="ps__thumb-y" tabindex="0"
+                                                            style="top: 0px; height: 139px;"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col-lg-6">
+                            <div class="mb-3 card">
+                                <div class="card-header-tab card-header-tab-animation card-header">
+                                    <div class="card-header-title">
+                                        <i class="header-icon lnr-apartment icon-gradient bg-love-kiss"> </i>
+                                        Requête 4 - Députés qui sont les seuls à voter différement <br> de tous les
+                                        autres membres de leur parti lors d'un vote
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="tab-content">
+                                        <div class="tab-pane fade show active" id="tabs-eg-77">
+                                            <h6 class="text-muted text font-size-md opacity-5 font-weight-normal">Seul
+                                                contre tous...
+                                            </h6>
+                                            {% if not data %}
+                                            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                                                <strong>No data Found!</strong> Please import the dataset to view live
+                                                queries
+                                                <button type="button" class="close" data-dismiss="alert"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            {% endif %}
+                                            <div class="scroll-area-sm">
+                                                <div class="scrollbar-container ps ps--active-y">
+                                                    <ul
+                                                        class="rm-list-borders rm-list-borders-scroll list-group list-group-flush">
+                                                        {% for acteur in data["diffUniqueVoters"] %}
+                                                        <li class="list-group-item">
+                                                            <div class="widget-content p-0">
+                                                                <div class="widget-content-wrapper">
+                                                                    <div class="widget-content-left mr-3">
+                                                                        <img width="42" class="rounded-circle"
+                                                                            src="{{acteur.get('picture')}}" alt="">
+                                                                    </div>
+                                                                    <div class="widget-content-left">
+                                                                        <div class="widget-heading">{{ acteur.get("nom")
+                                                                            }} {{ acteur.get("prenom") }} </div>
+                                                                        <div class="widget-subheading">{{
+                                                                            acteur.get("profession") }} </div>
+                                                                    </div>
+                                                                    <div class="widget-content-right">
+                                                                        <div class="font-size-xlg text-muted">
+                                                                            <span>{{ acteur.get("nombre") }} </span>
+                                                                            <span>fois</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        {% endfor %}
+                                                    </ul>
+                                                    <div class="ps__rail-x" style="left: 0px; bottom: 0px;">
+                                                        <div class="ps__thumb-x" tabindex="0"
+                                                            style="left: 0px; width: 0px;"></div>
+                                                    </div>
+                                                    <div class="ps__rail-y"
+                                                        style="top: 0px; height: 200px; right: 0px;">
+                                                        <div class="ps__thumb-y" tabindex="0"
+                                                            style="top: 0px; height: 139px;"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="mb-3 card">
+                                <div class="card-header-tab card-header-tab-animation card-header">
+                                    <div class="card-header-title">
+                                        <i class="header-icon lnr-apartment icon-gradient bg-love-kiss"> </i>
+                                        Requête 5 - Députés qui ont le plus souvent voté différement de leur parti
+                                        politique
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="tab-content">
+                                        <div class="tab-pane fade show active" id="tabs-eg-77">
+                                            <h6 class="text-muted text font-size-md opacity-5 font-weight-normal">Gare
+                                                aux discidents...
+                                            </h6>
+                                            {% if not data %}
+                                            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                                                <strong>No data Found!</strong> Please import the dataset to view live
+                                                queries
+                                                <button type="button" class="close" data-dismiss="alert"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            {% endif %}
+                                            <div class="scroll-area-sm">
+                                                <div class="scrollbar-container ps ps--active-y">
+                                                    <ul
+                                                        class="rm-list-borders rm-list-borders-scroll list-group list-group-flush">
+                                                        {% for acteur in data["diffVoters"] %}
+                                                        <li class="list-group-item">
+                                                            <div class="widget-content p-0">
+                                                                <div class="widget-content-wrapper">
+                                                                    <div class="widget-content-left mr-3">
+                                                                        <img width="42" class="rounded-circle"
+                                                                            src="{{acteur.get('picture')}}" alt="">
+                                                                    </div>
+                                                                    <div class="widget-content-left">
+                                                                        <div class="widget-heading">{{ acteur.get("nom")
+                                                                            }} {{ acteur.get("prenom") }} </div>
+                                                                        <div class="widget-subheading">{{
+                                                                            acteur.get("profession") }} </div>
+                                                                    </div>
+                                                                    <div class="widget-content-right">
+                                                                        <div class="font-size-xlg text-muted">
+                                                                            <span>{{ acteur.get("nombre") }} </span>
+                                                                            <span>fois</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        {% endfor %}
+                                                    </ul>
+                                                    <div class="ps__rail-x" style="left: 0px; bottom: 0px;">
+                                                        <div class="ps__thumb-x" tabindex="0"
+                                                            style="left: 0px; width: 0px;"></div>
+                                                    </div>
+                                                    <div class="ps__rail-y"
+                                                        style="top: 0px; height: 200px; right: 0px;">
+                                                        <div class="ps__thumb-y" tabindex="0"
+                                                            style="top: 0px; height: 139px;"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="main-card mb-3 card">
+                                <div class="card-body">
+
+                                    <h5 class="card-title">
+                                        Requête 6 - Partis politiques où les députés sont le plus souvent devenus
+                                        ministres {{limit}}
+                                    </h5>
+                                    <p>Past Glories...</p>
+                                    <table class="mb-0 table">
+                                        <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>parti politique</th>
+                                                <th>Nombre de ministres</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {% for organe in data["ministersParties"] %}
+                                            <tr>
+                                                <th scope="row">{{organe.get("index")}} </th>
+                                                <td>{{organe.get("libelle")}}</td>
+                                                <td>{{organe.get("number")}}</td>
+                                            </tr>
+                                            {% endfor %}
+                                            {% if not data %}
+                                            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                                                <strong>No data Found!</strong> Please import the dataset to view live
+                                                queries
+                                                <button type="button" class="close" data-dismiss="alert"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            {% endif %}
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="main-card mb-3 card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Requête 7 - Groupes politiques qui ont le plus souvent voté
+                                        contre les projets de loi du gouvernement</h5>
+                                    <p>Ces chers opposants...</p>
+                                    <table class="mb-0 table table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>parti politique</th>
+                                                <th>Nombre de votes</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {% for organe in data["opposants"] %}
+                                            <tr>
+                                                <th scope="row">{{organe.get("index")}} </th>
+                                                <td>{{organe.get("libelle")}}</td>
+                                                <td>{{organe.get("number")}}</td>
+                                            </tr>
+                                            {% endfor %}
+                                            {% if not data %}
+                                            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                                                <strong>No data Found!</strong> Please import the dataset to view live
+                                                queries
+                                                <button type="button" class="close" data-dismiss="alert"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            {% endif %}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="main-card mb-3 card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Requête 8 - Amendements soutenus par des cosignataires qui ne
+                                        sont pas dans le même parti que le signataire</h5>
+                                    <p>Vous avez raison...</p>
+                                    <table class="mb-0 table table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>parti signataire</th>
+                                                <th>parti co-signataire</th>
+                                                <th># Votes</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {% for organe in data["externalSupport"] %}
+                                            <tr>
+                                                <th>{{organe.get("partieSigner")}} </th>
+                                                <td>{{organe.get("partieCosigner")}}</td>
+                                                <td>{{organe.get("number")}}</td>
+                                            </tr>
+                                            {% endfor %}
+                                            {% if not data %}
+                                            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                                                <strong>No data Found!</strong> Please import the dataset to view live
+                                                queries
+                                                <button type="button" class="close" data-dismiss="alert"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            {% endif %}
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="main-card mb-3 card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Requête 9 - Articles de loi ayant subit le plus d'amendements
+                                        par dossier législatif</h5>
+                                    <p>Objection votre honneur!</p>
+                                    <table class="mb-0 table table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>Titre</th>
+                                                <th>Article</th>
+                                                <th># Votes</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {% for organe in data["mostAmandement"] %}
+                                            <tr>
+                                                <th scope="row">{{organe.get("titre")}} </th>
+                                                <td>{{organe.get("article")}}</td>
+                                                <td>{{organe.get("number")}}</td>
+                                            </tr>
+                                            {% endfor %}
+                                            {% if not data %}
+                                            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                                                <strong>No data Found!</strong> Please import the dataset to view live
+                                                queries
+                                                <button type="button" class="close" data-dismiss="alert"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            {% endif %}
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="main-card mb-3 card">
+                                <div class="card-body">
+
+                                    <h5 class="card-title">
+                                        Requête 10 - Textes de loi avec le plus d'abstention dans les votes
+                                    </h5>
+                                    <p>J'en suis pas si sur...</p>
+                                    <table class="mb-0 table">
+                                        <thead>
+                                            <tr>
+                                                <th>Titre du texte de loi</th>
+                                                <th>votants "abstention" </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {% for texte in data["abstentions"] %}
+                                            <tr>
+                                                <td>{{texte.get("titre")}}</td>
+                                                <td>{{texte.get("number")}}</td>
+                                            </tr>
+                                            {% endfor %}
+                                            {% if not data %}
+                                            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                                                <strong>No data Found!</strong> Please import the dataset to view live
+                                                queries
+                                                <button type="button" class="close" data-dismiss="alert"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            {% endif %}
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="main-card mb-3 card">
+                                <div class="card-body">
+
+                                    <h5 class="card-title">
+                                        Requête 11 - Textes de loi avec le plus de votes contre {{limit}}
+                                    </h5>
+                                    <p>No sir!</p>
+                                    <table class="mb-0 table">
+                                        <thead>
+                                            <tr>
+                                                <th>Titre du texte de loi</th>
+                                                <th>votants "contre"</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {% for texte in data["contestations"] %}
+                                            <tr>
+                                                <td>{{texte.get("titre")}}</td>
+                                                <td>{{texte.get("number")}}</td>
+                                            </tr>
+                                            {% endfor %}
+                                            {% if not data %}
+                                            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                                                <strong>No data Found!</strong> Please import the dataset to view live
+                                                queries
+                                                <button type="button" class="close" data-dismiss="alert"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            {% endif %}
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="app-wrapper-footer">
+                    <div class="app-footer">
+                        <div class="app-footer__inner">
+                            <div class="app-footer-left">
+                                <ul class="nav">
+                                    <li class="nav-item">
+                                        <a href="javascript:void(0);" class="nav-link">
+                                            PROJET NEO4J
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="javascript:void(0);" class="nav-link">
+                                            NOS DEPUTES
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="app-footer-right">
+                                <ul class="nav">
+                                    <li class="nav-item">
+                                        <a href="javascript:void(0);" class="nav-link">
+                                            &copy; MSBDAAD - projet neo4j 03-2022
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="assets/scripts/main.js"></script>
+</body>
+
+</html>

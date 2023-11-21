@@ -1,0 +1,61 @@
+[
+    {
+        "vote": {
+            "uid": "VTANR5L15V1",
+            "organeRef": "PO717460",
+            "sessionRef": "SCR5A2017E1",
+            "seanceRef": "RUANR5L15S2017IDS20603",
+            "dateScrutin": "2017-07-04",
+            "typeVote": null,
+            "titre": "la declaration de politique generale du Gouvernement de M. Edouard Philippe (application de l'article 49, alinea premier, de la Constitution).",
+            "objet": "la declaration de politique generale du Gouvernement de M. Edouard Philippe (application de l'article 49, alinea premier, de la Constitution)."
+        },
+        "texteDeLoi": []
+    },
+    {
+        "vote": {
+            "uid": "VTANR5L15V10",
+            "organeRef": "PO717460",
+            "sessionRef": "SCR5A2017E1",
+            "seanceRef": "RUANR5L15S2017IDS20610",
+            "dateScrutin": "2017-07-11",
+            "typeVote": null,
+            "titre": "l'amendement n\u00b0 446 de M. Vallaud \u00e0 l'article premier du projet de loi d'habilitation \u00e0 prendre par ordonnances les mesures pour le renforcement du dialogue social (premi\u00e8re lecture).",
+            "objet": "l'amendement n\u00b0 446 de M. Vallaud \u00e0 l'article premier du projet de loi d'habilitation \u00e0 prendre par ordonnances les mesures pour le renforcement du dialogue social (premi\u00e8re lecture)."
+        },
+        "texteDeLoi": [
+            {
+                "uid": "PRJLANR5L15B0118",
+                "dateCreation": "2017-07-28T00:00:00.000+02:00",
+                "dateDepot": "2017-07-28T00:00:00.000+02:00",
+                "datePublication": "2017-07-31T00:00:00.000+02:00",
+                "denominationStructurelle": "Projet de loi",
+                "titrePrincipal": "projet de loi d'habilitation \u00e0 prendre par ordonnances les mesures pour le renforcement du dialogue social",
+                "titrePrincipalCourt": "renforcement du dialogue social",
+                "dossierRef": "DLR5L15N35836",
+                "acteurRefList": [],
+                "type": "Projet de loi",
+                "sousType": null,
+                "familleDepot": "Initiative en Navette",
+                "familleClasse": "Projet de loi",
+                "familleEspece": null
+            },
+            {
+                "uid": "PRJLSNR5S279B0637",
+                "dateCreation": "2017-07-17T00:00:00.000+02:00",
+                "dateDepot": "2017-07-17T00:00:00.000+02:00",
+                "datePublication": "2017-07-27T00:00:00.000+02:00",
+                "denominationStructurelle": "Projet de loi",
+                "titrePrincipal": "projet de loi d'habilitation \u00e0 prendre par ordonnances les mesures pour le renforcement du dialogue social",
+                "titrePrincipalCourt": "renforcement du dialogue social",
+                "dossierRef": "DLR5L15N35836",
+                "acteurRefList": [],
+                "type": "Projet de loi",
+                "sousType": null,
+                "familleDepot": "Initiative en Navette",
+                "familleClasse": "Projet de loi",
+                "familleEspece": null
+            }
+        ]
+    }
+]

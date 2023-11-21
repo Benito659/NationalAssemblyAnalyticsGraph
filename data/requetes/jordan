@@ -1,0 +1,8 @@
+1-Députés qui votent le plus differement de leur partie politique
+MATCH  (a:Acteur)-[l:VOTEDFOR]-> (t:Texte_de_loi) with a ,l, t  match  (o:Organe{uid:l.organeRef})-[v:VOTEDFOR{voteId:l.voteId}]-> (tbis:Texte_de_loi{uid:t.uid}) where l.positionVote <>v.positionMajoritaire  return a.prenom, a.nom, count(*) as nbVotesDif order by nbVotesDif desc limit 10
+
+2-Députés qui déleguent le plus leurs votes
+MATCH (a:Acteur)-[l:VOTEDFOR{parDelegation:"true"}]-> (t:Texte_de_loi) return a.nom, a.prenom, count(*) as votesParDelegation order by votesParDelegation desc limit 10 
+
+3-Les textes de loi qui texte de lois avec le plus d_indécision dans les votes  
+MATCH (a:Acteur)-[l:VOTEDFOR{positionVote:"abstention"}]-> (t:Texte_de_loi) return t.uid, t.titrePrincipal, t.type, count(*) as votes order by votes desc limit 10

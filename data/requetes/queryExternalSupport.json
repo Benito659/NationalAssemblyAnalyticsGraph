@@ -1,0 +1,53 @@
+[
+    {
+      "PartiPolitique_signataire": "Union pour un Mouvement Populaire",
+      "PartiPolitique_cosignataire": "Les Républicains",
+      "nb_amendements": 26064
+    },
+    {
+      "PartiPolitique_signataire": "Les Républicains",
+      "PartiPolitique_cosignataire": "Union pour un Mouvement Populaire",
+      "nb_amendements": 17149
+    },
+    {
+      "PartiPolitique_signataire": "La République en Marche",
+      "PartiPolitique_cosignataire": "En marche !",
+      "nb_amendements": 15515
+    },
+    {
+      "PartiPolitique_signataire": "En marche !",
+      "PartiPolitique_cosignataire": "La République en Marche",
+      "nb_amendements": 15357
+    },
+    {
+      "PartiPolitique_signataire": "Régions et peuples solidaires",
+      "PartiPolitique_cosignataire": "Parti socialiste",
+      "nb_amendements": 3451
+    },
+    {
+      "PartiPolitique_signataire": "Mouvement Démocrate",
+      "PartiPolitique_cosignataire": "Parti socialiste",
+      "nb_amendements": 3426
+    },
+    {
+      "PartiPolitique_signataire": "Europe Écologie Les Verts",
+      "PartiPolitique_cosignataire": "En marche !",
+      "nb_amendements": 2910
+    },
+    {
+      "PartiPolitique_signataire": "Europe Écologie Les Verts",
+      "PartiPolitique_cosignataire": "La République en Marche",
+      "nb_amendements": 2871
+    },
+    {
+      "PartiPolitique_signataire": "Non rattaché(s)",
+      "PartiPolitique_cosignataire": "En marche !",
+      "nb_amendements": 2599
+    },    
+    {
+      "PartiPolitique_signataire": "Parti radical de gauche",
+      "PartiPolitique_cosignataire": "La République en Marche",
+      "nb_amendements": 1521
+    }
+    
+  ]

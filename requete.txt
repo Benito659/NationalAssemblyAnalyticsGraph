@@ -1,0 +1,7 @@
+1 : MATCH (n:Acteur) return n ORDER by date(n.dateNais) desc LIMIT 3;
+2 : MATCH (n),(o),(n)-[r]->(o)  WHERE (n:Acteur)-[r:ISPARTIPOLITIQUE]->(o:Organe{codeType:"PARPOL"} ) WITH n , Count(*) as ctn ORDER BY ctn desc return n limit 5;
+ou bien    MATCH p=(n:Acteur)-[:ISPARTIPOLITIQUE]->(:Organe{codeType:"PARPOL"}) WITH n, Count(*) as ctn ORDER BY ctn desc RETURN n LIMIT 3;
+3 : match (n) where (n:Acteur)-[:Ministre]->() WITH count(*) as ctn return ctn;
+    MATCH p=(n:Acteur)-[:Ministre]->(o:Organe) with n match (:Acteur{uid:n.uid})-[:Membre]->(o:Organe{codeType:"PARPOL"}) return o;
+    #dont work match (o) where (:Acteur)-[:Ministre]->(o:Organe{codeType:"PARPOL"}) WITH o, count(*) as ctn ORDER BY  ctn desc RETURN o LIMIT 5;
+
